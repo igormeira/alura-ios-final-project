@@ -39,6 +39,7 @@
 		0388B02E20DC19EF005F6A7C /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0388B01D20DC19EF005F6A7C /* img10.jpg */; };
 		0388B02F20DC19EF005F6A7C /* icon_hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0388B01E20DC19EF005F6A7C /* icon_hotel.png */; };
 		0388B03120DC1B62005F6A7C /* PacoteViagemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0388B03020DC1B62005F6A7C /* PacoteViagemDao.swift */; };
+		3A10F9D4221AF7B000B446EF /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A10F9D3221AF7B000B446EF /* splash-screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		0388B01D20DC19EF005F6A7C /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
 		0388B01E20DC19EF005F6A7C /* icon_hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hotel.png; sourceTree = "<group>"; };
 		0388B03020DC1B62005F6A7C /* PacoteViagemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemDao.swift; sourceTree = "<group>"; };
+		3A10F9D3221AF7B000B446EF /* splash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,8 @@
 				03715B3920DC055200F2250A /* Models */,
 				03715B3A20DC056300F2250A /* Views */,
 				03715B3B20DC057900F2250A /* Controllers */,
-				03715B2820DC050800F2250A /* Main.storyboard */,
 				0388B00D20DC19EF005F6A7C /* Assets */,
+				03715B2820DC050800F2250A /* Main.storyboard */,
 				03715B2E20DC050A00F2250A /* Assets.xcassets */,
 				03715B3020DC050A00F2250A /* LaunchScreen.storyboard */,
 				03715B3320DC050A00F2250A /* Info.plist */,
@@ -156,25 +158,42 @@
 		0388B00D20DC19EF005F6A7C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0388B00E20DC19EF005F6A7C /* icon_back.png */,
-				0388B00F20DC19EF005F6A7C /* icon_search@2x.png */,
-				0388B01020DC19EF005F6A7C /* icon_package@2x.png */,
+				3A10F9D2221AF75500B446EF /* icons */,
+				3A10F9D1221AF73D00B446EF /* images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3A10F9D1221AF73D00B446EF /* images */ = {
+			isa = PBXGroup;
+			children = (
 				0388B01120DC19EF005F6A7C /* img9.jpg */,
 				0388B01220DC19EF005F6A7C /* img8.jpg */,
-				0388B01320DC19EF005F6A7C /* icon_airplane.png */,
 				0388B01420DC19EF005F6A7C /* img5.jpg */,
 				0388B01520DC19EF005F6A7C /* img4.jpg */,
 				0388B01620DC19EF005F6A7C /* img6.jpg */,
 				0388B01720DC19EF005F6A7C /* img7.jpg */,
 				0388B01820DC19EF005F6A7C /* img3.jpg */,
 				0388B01920DC19EF005F6A7C /* img2.jpg */,
-				0388B01A20DC19EF005F6A7C /* icon_breakfast.png */,
 				0388B01B20DC19EF005F6A7C /* img1.png */,
 				0388B01C20DC19EF005F6A7C /* img11.jpg */,
 				0388B01D20DC19EF005F6A7C /* img10.jpg */,
+				3A10F9D3221AF7B000B446EF /* splash-screen.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3A10F9D2221AF75500B446EF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				0388B00E20DC19EF005F6A7C /* icon_back.png */,
+				0388B00F20DC19EF005F6A7C /* icon_search@2x.png */,
+				0388B01020DC19EF005F6A7C /* icon_package@2x.png */,
+				0388B01320DC19EF005F6A7C /* icon_airplane.png */,
+				0388B01A20DC19EF005F6A7C /* icon_breakfast.png */,
 				0388B01E20DC19EF005F6A7C /* icon_hotel.png */,
 			);
-			path = Assets;
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +257,7 @@
 				0388B02B20DC19EF005F6A7C /* icon_breakfast.png in Resources */,
 				0388B02120DC19EF005F6A7C /* icon_package@2x.png in Resources */,
 				0388B02A20DC19EF005F6A7C /* img2.jpg in Resources */,
+				3A10F9D4221AF7B000B446EF /* splash-screen.png in Resources */,
 				0388B02620DC19EF005F6A7C /* img4.jpg in Resources */,
 				0388B02520DC19EF005F6A7C /* img5.jpg in Resources */,
 				0388B02920DC19EF005F6A7C /* img3.jpg in Resources */,
@@ -421,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				DEVELOPMENT_TEAM = SR8XKY8WGM;
 				INFOPLIST_FILE = "Alura Viagens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				DEVELOPMENT_TEAM = SR8XKY8WGM;
 				INFOPLIST_FILE = "Alura Viagens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
