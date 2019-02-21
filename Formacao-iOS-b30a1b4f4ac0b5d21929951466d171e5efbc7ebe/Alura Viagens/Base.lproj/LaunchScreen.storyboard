@@ -21,8 +21,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="YaL-cb-Fcg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCm-kE-A0W">
-                                <rect key="frame" x="78" y="309" width="219" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alura viagens" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCm-kE-A0W">
+                                <rect key="frame" x="16" y="309" width="343" height="49"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -38,9 +38,10 @@
                             <constraint firstItem="JCm-kE-A0W" firstAttribute="centerX" secondItem="YaL-cb-Fcg" secondAttribute="centerX" id="BH4-DB-Zlf"/>
                             <constraint firstItem="YaL-cb-Fcg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="CaT-DP-c8P"/>
                             <constraint firstItem="JCm-kE-A0W" firstAttribute="centerY" secondItem="YaL-cb-Fcg" secondAttribute="centerY" id="NaE-bp-tbz"/>
-                            <constraint firstItem="JCm-kE-A0W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="XGM-aB-ARe"/>
+                            <constraint firstItem="JCm-kE-A0W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XGM-aB-ARe"/>
                             <constraint firstItem="YaL-cb-Fcg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xfa-LL-5VJ"/>
                             <constraint firstItem="YaL-cb-Fcg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YsC-Ur-91H"/>
+                            <constraint firstItem="JCm-kE-A0W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hHl-3Z-6Ha"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
